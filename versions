@@ -1,0 +1,61 @@
+node --version
+v16.20.0
+
+nvm --version
+0.37.2
+
+npm --version
+8.19.4
+
+
+lsb_release  -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.6 LTS
+Release:	18.04
+Codename:	bionic
+
+
+
+
+cypress info
+
+Detected 2 browsers installed:
+
+1. Chrome
+  - Name: chrome
+  - Channel: stable
+  - Version: 113.0.5672.92
+  - Executable: google-chrome
+  - Profile: /home/tester/.config/Cypress/cy/production/browsers/chrome-stable
+
+2. Firefox
+  - Name: firefox
+  - Channel: stable
+  - Version: 112.0.2
+  - Executable: firefox
+
+Note: to run these browsers, pass <name>:<channel> to the '--browser' field
+
+Examples:
+- cypress run --browser chrome
+- cypress run --browser firefox
+
+Learn More: https://on.cypress.io/launching-browsers
+
+Proxy Settings:
+HTTP_PROXY: http://proxy.esl.cisco.com:80/
+HTTPS_PROXY: http://proxy.esl.cisco.com:80/
+
+Learn More: https://on.cypress.io/proxy-configuration
+
+Environment Variables: none detected
+
+Application Data: /home/tester/.config/cypress/cy/development
+Browser Profiles: /home/tester/.config/cypress/cy/development/browsers
+Binary Caches: /home/tester/.cache/Cypress
+
+Cypress Version: 10.11.0 (stable)
+System Platform: linux (Ubuntu - 18.04)
+System Memory: 406 GB free 402 GB
+(python3.6.9_venv) tester@IWAN-SCALE-UCS1:/home/tester/vtest/tests/scripts/vmanage/e2e$ 
